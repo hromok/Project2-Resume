@@ -1,0 +1,258 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgba(229, 229, 229, 1);
+}
+
+/* Main */
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* Main Content */
+.main_content {
+  background-color: #ffffff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 105px 90px;
+}
+
+/* About User */
+.about_user {
+  margin-bottom: 40px;
+}
+
+.about_position {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.about_name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.about_description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  width: 400px;
+}
+
+.projects {
+  margin-bottom: 50px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.project_list {
+  padding: 0;
+  margin-left: 15px;
+}
+
+.project_item {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.project,
+.project_link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.project_link {
+  margin-left: 10px;
+}
+
+.project_brucket {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.position {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.organization {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+}
+
+.period {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 35px;
+}
+
+.line {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.worklist {
+  padding: 0;
+  margin-left: 15px;
+  margin-bottom: 45px;
+}
+
+.worklist_item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.education {
+  margin-bottom: 60px;
+}
+
+.university {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+  margin-top: 15px;
+  margin-bottom: -10px;
+}
+
+.specialty {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+/* Side Bar */
+.side_bar {
+  background-color: rgba(30, 41, 57, 1);
+  padding-top: 40px;
+  width: 370px;
+}
+
+.photo {
+  width: 370px;
+  margin-bottom: 50px;
+}
+
+.sidebar_title {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+
+.contacts,
+.techskills,
+.softskills {
+  margin-left: 40px;
+}
+
+.contacts {
+  margin-bottom: 50px;
+}
+
+.contact_type {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.contact_link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #565e6a;
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: #ffffff;
+}
+
+.techskills {
+  margin-bottom: 45px;
+}
+
+.techskills_list {
+  padding: 0;
+  margin-left: 17px;
+}
+
+.techskills_item {
+  color: #fb6d3a;
+}
+
+.techskills_text {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.softskills_list {
+  padding: 0;
+  margin-left: 17px;
+  margin-bottom: 336px;
+}
+
+.softskills_item {
+  color: #fb6d3a;
+}
+
+.softskills_text {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
